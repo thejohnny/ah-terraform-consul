@@ -31,7 +31,3 @@ module "consul_server" {
   ec2_ip_allowlist      = var.ec2_ip_allowlist
   ec2_user_data_base64  = data.cloudinit_config.consul_server.rendered
 }
-
-output "consul_http_addr" {
-  value = "http://${module.consul_server.aws_instance[0].private_ip}:8500"
-}
