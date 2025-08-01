@@ -17,3 +17,9 @@ Terraform for Consul resources which is only a single K/V key. ACL resources suc
 Terraform to deploy TFE projects, agent pool, workspaces and workspace settings. Enables the VCS workflows to deploy infrastructure and Consul resources from the same repository.
 
 AWS IAM resources allow HCP Terraform to deploy AWS infra and are not applicable to on-prem TFE.
+
+## Additional Content
+
+### netowrk-segments
+
+This directory holds the server and client agent configs used to demo network segments.
